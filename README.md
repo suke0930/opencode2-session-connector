@@ -25,7 +25,7 @@ Add the directory to `plugins` in `opencode.json(c)`:
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["/absolute/path/to/opencode-plugin-session-bus"]
+  "plugins": ["/absolute/path/to/opencode2-session-connector"]
 }
 ```
 
