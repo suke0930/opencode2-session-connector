@@ -1,0 +1,36 @@
+{
+  "name": "opencode2-session-connector",
+  "version": "0.1.0",
+  "description": "Validated session-to-session messaging for OpenCode, built on the native session API",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "session",
+    "messaging",
+    "multi-agent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.26 <3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode/plugin": {
+      "optional": true
+    }
+  }
+}
